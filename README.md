@@ -6,20 +6,23 @@
 
 ## Como utilizar este template
 
-Você deve criar um repositório em sua conta com o nome do grupo de estudos. Crie o repositório em branco, sem README ou arquivo de licença, conforme a imagem:
+Deve existir um repositório `xxx-study-group` que foi criado pela administração do projeto grupos de estudos para que você continue o processo de criação do grupo.
 
-![Imagem da criação de repositório sem nenhum arquivo](https://i.imgur.com/j11HUwI.png)
+Caso este repo não exista, comente em uma [issue no repositório do grupos de estudos](https://github.com/training-center/study-groups/issues).
 
-Ex. de nome de repositório: `js-study-group`
+Você deverá clonar o repositório do seu grupo de estudos para a sua máquina e em seguida clonar este projeto inteiro para dentro do repositório.
 
-Onde `study-group` é obrigatório por ser um padrão do projeto e o primeiro nome deve ser o tópico estudado.
+Para isso vá até o repositório xxx-study-groups (onde xxx é o nome da área ou técnologia que vocês irão estudar juntos) e clique em clone. Copie o link via SSH ou HTTP conforme a sua maneira de usar Git.
+
+![Imgur](https://i.imgur.com/HJERYKc.png)
+
+Faça o git pull.
 
 Em seguida baixe este repositório dentro do seu com o seguinte procedimento:
 
-1. clone seu repositório para sua máquina
 1. clone o repositório template para o seu projeto: `git clone git@github.com:training-center/template-study-group.git`
 1. mova os arquivos da pasta template para o seu projeto: `mv template-study-group/assets/ template-study-group/LICENSE template-study-group/material/ template-study-group/README.md . && rm -rf template-study-group`
-1. altere o documento conforme o guia abaixo
+1. altere este documento conforme o guia abaixo
 
 ## Alterando a documentação do repositório
 
@@ -31,11 +34,7 @@ Onde estiver [xxx] em todo o repositório, mude para o tema do seu grupo. Como, 
 
 Exemplo de repositório: [clojure-study-group](https://github.com/training-center/clojure-study-group).
 
-Com tudo isso pronto, você irá enviar o seu repositório para o Training Center. Para isso acesse a aba de configurações (settings) e clique em **transfer** na sessão **Transfer ownership**. Onde estiver para colocar o nome do usuário, coloque `training-center`.
-
-![Imagem de transferência de repositório](https://i.imgur.com/AP2lNN6.png)
-
-![Imagem da confirmação de transferência](https://i.imgur.com/kBFhsEk.png)
+Com tudo alterado, basta fazer o push.
 
 Caso você tenha qualquer dúvida sobre o processo de criação do grupo de estudos, abra uma issue em [study-group](https://github.com/training-center/study-groups).
 
