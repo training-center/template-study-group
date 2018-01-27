@@ -12,7 +12,7 @@ Caso este repo não exista, comente em uma [issue no repositório do grupos de e
 
 Você deverá clonar o repositório do seu grupo de estudos para a sua máquina e em seguida clonar este projeto inteiro para dentro do repositório.
 
-Para isso vá até o repositório xxx-study-groups (onde xxx é o nome da área ou técnologia que vocês irão estudar juntos) e clique em clone. Copie o link via SSH ou HTTP conforme a sua maneira de usar Git.
+Para isso vá até o repositório xxx-study-group (onde xxx é o nome da área ou técnologia que vocês irão estudar juntos) e clique em clone. Copie o link via SSH ou HTTP conforme a sua maneira de usar Git.
 
 ![Imgur](https://i.imgur.com/HJERYKc.png)
 
