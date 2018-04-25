@@ -16,8 +16,6 @@ Para isso vá até o repositório xxx-study-group (onde xxx é o nome da área o
 
 ![Imgur](https://i.imgur.com/HJERYKc.png)
 
-Faça o git pull.
-
 Em seguida baixe este repositório dentro do seu com o seguinte procedimento:
 
 1. Abre o terminal.
