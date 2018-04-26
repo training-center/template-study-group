@@ -16,13 +16,24 @@ Para isso vá até o repositório xxx-study-group (onde xxx é o nome da área o
 
 ![Imgur](https://i.imgur.com/HJERYKc.png)
 
-Faça o git pull.
-
 Em seguida baixe este repositório dentro do seu com o seguinte procedimento:
 
-1. clone o repositório template para o seu projeto: `git clone git@github.com:training-center/template-study-group.git`
-1. mova os arquivos da pasta template para o seu projeto: `mv template-study-group/assets/ template-study-group/LICENSE template-study-group/material/ template-study-group/README.md . && rm -rf template-study-group`
-1. altere este documento conforme o guia abaixo
+1. Abre o terminal.
+2. Faz um clone com `--bare`.
+
+```bash
+$ git clone --bare https://github.com/seuUsuario/old-repository.git
+```
+3. Espelhe o repositório.
+```bash
+$ cd old-repository.git
+$ git push --mirror https://github.com/seuUsuario/new-repository.git
+```
+4. Remova o git que você clonou no primeiro passo.
+```bash
+$ cd ..
+$ rm -rf old-repository.git
+```
 
 ## Alterando a documentação do repositório
 
